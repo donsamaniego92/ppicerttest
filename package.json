@@ -1,0 +1,25 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "Boilerplate for React and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Alex Samaniego",
+  "license": "MIT",
+  "dependencies": {
+    "aweber-api": "^1.0.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "dateformat": "^3.0.3",
+    "express": "^4.16.4",
+    "firebase": "^5.7.2",
+    "oauth-1.0a": "^2.2.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
